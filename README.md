@@ -37,6 +37,7 @@ docker images -a
 
 ```shell
 docker rmi $(docker images -a -q)
+docker rmi -f $(docker images -a -q)
 ```
 
 #### Stop and remove all containers
