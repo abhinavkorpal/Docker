@@ -19,6 +19,9 @@ Docker container technology was launched in 2013 as an open source Docker Engine
 
 It leveraged existing computing concepts around containers and specifically in the Linux world, primitives known as cgroups and namespaces. Docker's technology is unique because it focuses on the requirements of developers and systems operators to separate application dependencies from infrastructure.
 
+Success in the Linux world drove a partnership with Microsoft that brought Docker containers and its functionality to Windows Server.
+
+Technology available from Docker and its open source project, Moby has been leveraged by all major data center vendors and cloud providers. Many of these providers are leveraging Docker for their container-native IaaS offerings. Additionally, the leading open source serverless frameworks utilize Docker container technology.
 
 ### Comparing Containers and Virtual Machines
 Containers and virtual machines have similar resource isolation and allocation benefits, but function differently because containers virtualize the operating system instead of hardware. Containers are more portable and efficient.
