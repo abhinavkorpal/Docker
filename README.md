@@ -15,6 +15,8 @@ Container images become containers at runtime and in the case of Docker containe
 
 **Secure:** Applications are safer in containers and Docker provides the strongest default isolation capabilities in the industry
 
+![](https://github.com/abhinavkorpal/Docker/blob/master/images/containerized_applications.png)
+
 Docker container technology was launched in 2013 as an open source Docker Engine.
 
 It leveraged existing computing concepts around containers and specifically in the Linux world, primitives known as cgroups and namespaces. Docker's technology is unique because it focuses on the requirements of developers and systems operators to separate application dependencies from infrastructure.
