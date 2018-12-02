@@ -25,6 +25,8 @@ Success in the Linux world drove a partnership with Microsoft that brought Docke
 
 Technology available from Docker and its open source project, Moby has been leveraged by all major data center vendors and cloud providers. Many of these providers are leveraging Docker for their container-native IaaS offerings. Additionally, the leading open source serverless frameworks utilize Docker container technology.
 
+![](https://github.com/abhinavkorpal/Docker/blob/master/images/docker_today.png)
+
 ### Comparing Containers and Virtual Machines
 Containers and virtual machines have similar resource isolation and allocation benefits, but function differently because containers virtualize the operating system instead of hardware. Containers are more portable and efficient.
 
@@ -33,6 +35,8 @@ Containers are an abstraction at the app layer that packages code and dependenci
 
 ### VIRTUAL MACHINES
 Virtual machines (VMs) are an abstraction of physical hardware turning one server into many servers. The hypervisor allows multiple VMs to run on a single machine. Each VM includes a full copy of an operating system, the application, necessary binaries and libraries - taking up tens of GBs. VMs can also be slow to boot.
+
+![](https://github.com/abhinavkorpal/Docker/blob/master/images/containerized.png)
 
 ### Containers and Virtual Machines Together
 
