@@ -77,3 +77,9 @@ docker volume create
 ```shell
 docker volume prune
 ```
+##### To we the approximate size of a running container, you can use the:
+```shell
+docker ps -s
+```
+If you build image from two Dockerfiles, you can use ```docker image ls``` and ```docker history``` commands to verify that the cryptographic IDs of the shared layers are the same.
+
