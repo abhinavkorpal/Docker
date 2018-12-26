@@ -82,4 +82,11 @@ docker volume prune
 docker ps -s
 ```
 If you build image from two Dockerfiles, you can use ```docker image ls``` and ```docker history``` commands to verify that the cryptographic IDs of the shared layers are the same.
-
+##### List the contents of the local storage area:
+```shell
+$ sudo ls /var/lib/docker/containers
+```
+##### check out their sizes:
+```shell
+$ sudo du -sh /var/lib/docker/containers/*
+```
