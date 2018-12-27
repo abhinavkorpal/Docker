@@ -90,3 +90,28 @@ $ sudo ls /var/lib/docker/containers
 ```shell
 $ sudo du -sh /var/lib/docker/containers/*
 ```
+##### Create a volume:
+```shell
+$ docker volume create my-vol
+```
+##### List volumes:
+```shell
+$ docker volume ls
+```
+##### Inspect a volume:
+```shell
+$ docker volume inspect my-vol[
+    {
+        "Driver": "local",
+        "Labels": {},
+        "Mountpoint": "/var/lib/docker/volumes/my-vol/_data",
+        "Name": "my-vol",
+        "Options": {},
+        "Scope": "local"
+    }
+]
+```
+##### Remove a volume:
+```shell
+$ docker volume rm my-vol
+```
