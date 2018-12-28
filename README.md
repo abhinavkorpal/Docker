@@ -115,3 +115,32 @@ $ docker volume inspect my-vol[
 ```shell
 $ docker volume rm my-vol
 ```
+##### List Docker CLI commands
+```shell
+docker
+docker container --help
+```
+
+##### Display Docker version and info
+```shell
+docker --version
+docker version
+docker info
+```
+
+##### Execute Docker image
+```shell
+docker run hello-world
+```
+
+##### List Docker images
+```shell
+docker image ls
+```
+
+##### List Docker containers (running, all, all in quiet mode)
+```shell
+docker container ls
+docker container ls --all
+docker container ls -aq
+```
